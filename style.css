@@ -1,0 +1,58 @@
+* {
+    font-family: 'Lucida Console';
+    text-align: center;
+}
+
+html {
+    background-image: url(IMAGES/starbg2.gif);
+}
+
+body {
+    margin: auto;
+    color: white;
+    background: transparent;
+}
+
+ul {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: greenyellow;
+    color: red;
+    display: inline-block;
+}
+
+.cool-landing-page {
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.danin:nth-child(1) {
+    color: red;
+}
+
+.danin:nth-child(2) {
+    color: orange;
+}
+
+.danin:nth-child(3) {
+    color: yellow;
+}
+
+.danin:nth-child(4) {
+    color: green;
+}
+
+.danin:nth-child(5) {
+    color: blue;
+}
