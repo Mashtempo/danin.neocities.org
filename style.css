@@ -1,10 +1,7 @@
-* {
-    font-family: 'Lucida Console';
-    text-align: center;
-}
-
 html {
     background-image: url(IMAGES/starbg2.gif);
+    font-family: 'Lucida Console';
+    text-align: center;
 }
 
 body {
