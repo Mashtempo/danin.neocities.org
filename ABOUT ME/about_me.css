@@ -1,0 +1,30 @@
+html {
+    background-image: url("/IMAGES/bganstar.gif");
+    font-family: 'Lucida Console';
+    color: white;
+    text-align: center;
+}
+
+div {
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: auto;
+    text-align: center;
+    gap: 350px;
+}
+
+.about-me {
+    border: 5px solid greenyellow;
+    width: 1000px;
+    background-color: indianred;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
