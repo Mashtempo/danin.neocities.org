@@ -1,0 +1,48 @@
+html {
+    background-image: url("/IMAGES/BGspace.gif");
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Console';
+}
+
+.blog {
+    border: 5px solid green;
+    background-color: indianred;
+    width: 500px;
+    display: inline-block;
+    padding: 5px
+}
+
+.entry {
+    text-align: left;
+}
+
+.blog_entry {
+    text-align: justify;
+    border: 5px solid green;
+    background-color: indianred;
+    width: 800px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.back {
+    text-align: left;
+}
+
+.personal {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+a:visited {
+    color: yellow;
+}
+
