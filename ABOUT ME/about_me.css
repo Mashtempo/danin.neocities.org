@@ -28,3 +28,19 @@ div {
     text-align: center;
     padding: 5px;
 }
+
+.back {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+a:visited {
+    color: yellow;
+}
