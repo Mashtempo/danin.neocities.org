@@ -20,6 +20,23 @@ div {
     gap: 350px;
 }
 
+.container-links-interests {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: auto;
+    text-align: center;
+    gap: 350px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    text-align: left;
+}
+
 .about-me {
     border: 5px solid greenyellow;
     width: 1000px;
