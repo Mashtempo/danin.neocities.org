@@ -25,12 +25,27 @@ div {
     grid-template-columns: repeat(2, 250px);
     grid-template-rows: auto;
     text-align: center;
-    gap: 350px;
+    gap: 300px;
 }
 
 .grid-item {
     display: flex;
     flex-direction: column;
+}
+
+.about-me-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+    padding: 20px;
+}
+
+.about-me-grid {
+    border: 5px solid green;
+    background-color: purple;
+    padding: 10px;
+    height: 40px;
 }
 
 li {
